@@ -16,7 +16,6 @@ fh = open('mbox-short.txt')
 d = dict()
 for i in fh:
     if i.startswith('From ') == True:
-        i = i.rstrip()
         i = i.split()
         i = i[2]
         d[i] = d.get(i, 0)+1
