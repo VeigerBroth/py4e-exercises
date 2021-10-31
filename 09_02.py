@@ -5,7 +5,7 @@ week the commit was done. To do this look for lines that start with
  each of the days of the week. At the end of the program print out the
   contents of your dictionary (order does not matter).
   
-  Sapmple line:
+  Sample line:
   From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
 
   Sample execution:
