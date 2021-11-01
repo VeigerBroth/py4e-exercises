@@ -28,10 +28,8 @@ for i in fh:
         i = i.split()
         i = i[1]
         d[i] = d.get(i, 0)+1
-
-for n in d:
-    if d[n] > max_value:
-        max_value = d[n]
-        max_value_key = n
+        if d[i] > max_value:
+            max_value = d[i]
+            max_value_key = i
 
 print(f'{max_value_key} {max_value}')
